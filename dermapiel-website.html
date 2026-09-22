@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dermapiel — Centro Estético Láser y Ozonoterapia | Ambato</title>
+  <meta name="description" content="Dermapiel: terapias de ozono, láser y belleza avanzada en Ambato, Ecuador. Agenda tu consulta gratuita por WhatsApp." />
+  <meta name="theme-color" content="#0e5c53" />
+  <link rel="canonical" href="https://novestudios-hq.github.io/dermapiel-clinic/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_EC" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:title" content="Dermapiel — Centro Estético Láser y Ozonoterapia" />
+  <meta property="og:description" content="Tecnología estética, rituales de cuidado y atención personalizada en el centro de Ambato." />
+  <meta property="og:url" content="https://novestudios-hq.github.io/dermapiel-clinic/" />
+  <meta property="og:image" content="https://files.manuscdn.com/search-media/310519663977264131/b2veMCpQjNwALavijAco2a/fNnoHim24uXp8ZZyAafTcF.jpg" />
+  <meta property="og:image:alt" content="Tratamiento láser estético de referencia" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dermapiel — Centro Estético Láser y Ozonoterapia" />
+  <meta name="twitter:description" content="Agenda tu consulta gratuita en Ambato, Ecuador." />
+  <meta name="twitter:image" content="https://files.manuscdn.com/search-media/310519663977264131/b2veMCpQjNwALavijAco2a/fNnoHim24uXp8ZZyAafTcF.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --teal: #0e5c53;
+      --teal-deep: #073e39;
+      --teal-soft: #dbece7;
+      --gold: #c8a878;
+      --gold-pale: #eadfc9;
+      --ink: #1e2a27;
+      --muted: #66726e;
+      --cream: #f8f6f1;
+      --paper: #fffdfa;
+      --line: rgba(30, 42, 39, .13);
+      --shadow: 0 22px 70px rgba(14, 92, 83, .12);
+      --ease: cubic-bezier(.23, 1, .32, 1);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font-family: 'DM Sans', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+    body:has(.nav-panel.is-open) { overflow: hidden; }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; }
+    img { display: block; max-width: 100%; }
+    .shell { width: min(1180px, calc(100% - 48px)); margin: 0 auto; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 10px; text-transform: uppercase; letter-spacing: .18em; font-size: 10px; font-weight: 700; color: var(--gold); }
+    .eyebrow::before { content: ''; width: 28px; height: 1px; background: currentColor; }
+    h1, h2, h3, p { margin: 0; }
+    h1, h2, h3 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; line-height: .95; }
+    h1 { font-size: clamp(4rem, 8vw, 7.2rem); letter-spacing: -.055em; }
+    h2 { font-size: clamp(3rem, 5vw, 5.1rem); letter-spacing: -.05em; }
+    h3 { font-size: 2rem; letter-spacing: -.035em; }
+    .topline { background: var(--teal-deep); color: rgba(255,255,255,.75); font-size: 11px; letter-spacing: .04em; }
+    .topline .shell { min-height: 36px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+    .topline strong { color: white; font-weight: 600; }
+    .topline-right { display: flex; align-items: center; gap: 18px; }
+    .lang-switch { display: inline-flex; align-items: center; gap: 2px; border: 1px solid rgba(255,255,255,.25); border-radius: 100px; padding: 2px; }
+    .lang-switch button { border: 0; background: transparent; color: rgba(255,255,255,.6); padding: 4px 8px; border-radius: 100px; font-size: 10px; font-weight: 700; letter-spacing: .12em; cursor: pointer; }
+    .lang-switch button.is-active { color: var(--teal-deep); background: var(--gold-pale); }
+    .navbar { position: sticky; top: 0; z-index: 20; background: rgba(255,253,250,.92); backdrop-filter: blur(18px); border-bottom: 1px solid rgba(30,42,39,.08); }
+    .nav-inner { min-height: 82px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { display: inline-flex; align-items: center; gap: 12px; }
+    .brand-mark { position: relative; width: 39px; height: 39px; display: grid; place-items: center; color: var(--teal); border: 1px solid var(--gold); border-radius: 50%; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 26px; line-height: 1; }
+    .brand-mark::after { content: ''; position: absolute; width: 8px; height: 8px; top: -4px; right: 0; border: 1px solid var(--gold); border-radius: 50% 50% 50% 0; transform: rotate(-25deg); background: var(--paper); }
+    .brand-name { color: var(--teal); font-size: 19px; font-weight: 700; letter-spacing: -.04em; }
+    .brand-sub { color: var(--muted); display: block; margin-top: 1px; text-transform: uppercase; letter-spacing: .12em; font-size: 7px; font-weight: 700; }
+    .nav-links { display: flex; align-items: center; gap: clamp(18px, 2.5vw, 34px); font-size: 12px; color: #44524e; }
+    .nav-links a { position: relative; padding: 8px 0; }
+    .nav-links a::after { content: ''; position: absolute; left: 0; right: 100%; bottom: 0; height: 1px; background: var(--gold); transition: right .22s var(--ease); }
+    .nav-links a:hover::after, .nav-links a:focus-visible::after { right: 0; }
+    .nav-cta, .button { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 46px; padding: 0 20px; border-radius: 100px; border: 1px solid transparent; font-size: 11px; font-weight: 700; letter-spacing: .03em; transition: transform .16s var(--ease), background .22s var(--ease), color .22s var(--ease), border-color .22s var(--ease); cursor: pointer; }
+    .nav-cta, .button-primary { color: #fff; background: var(--teal); }
+    .nav-cta:hover, .button-primary:hover { background: var(--teal-deep); transform: translateY(-2px); }
+    .button-secondary { color: var(--teal); background: transparent; border-color: rgba(14,92,83,.35); }
+    .button-secondary:hover { background: var(--teal-soft); border-color: var(--teal); transform: translateY(-2px); }
+    .button-light { background: var(--gold-pale); color: var(--teal-deep); }
+    .button-light:hover { background: #f1e7d4; transform: translateY(-2px); }
+    .button:active, .nav-cta:active { transform: scale(.97); }
+    .menu-toggle { display: none; border: 0; background: transparent; color: var(--teal); padding: 8px; cursor: pointer; }
+    .hero { overflow: hidden; position: relative; background: var(--cream); }
+    .hero::before { content: ''; position: absolute; inset: 0; opacity: .33; pointer-events: none; background-image: radial-gradient(rgba(14,92,83,.18) .7px, transparent .7px); background-size: 19px 19px; mask-image: linear-gradient(90deg, black, transparent 78%); }
+    .hero-grid { position: relative; min-height: 705px; display: grid; grid-template-columns: .9fr 1.1fr; align-items: center; gap: clamp(35px, 6vw, 100px); padding: 76px 0 88px; }
+    .hero-copy { position: relative; z-index: 1; max-width: 570px; }
+    .hero-title { color: var(--teal-deep); margin: 26px 0 25px; }
+    .hero-title em { color: var(--gold); font-style: italic; }
+    .hero-lede { max-width: 470px; font-size: 17px; line-height: 1.65; color: #50605a; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
+    .hero-note { display: flex; align-items: center; gap: 10px; margin-top: 22px; color: var(--muted); font-size: 11px; }
+    .hero-note .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 0 4px rgba(200,168,120,.18); }
+    .hero-art { position: relative; height: 545px; }
+    .hero-art-main { position: absolute; inset: 0 47px 0 0; overflow: hidden; border-radius: 190px 190px 14px 14px; background: var(--teal); box-shadow: var(--shadow); }
+    .hero-art-main::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(7,62,57,.02) 42%, rgba(7,62,57,.64)); }
+    .hero-art-main img { width: 100%; height: 100%; object-fit: cover; object-position: 46% center; filter: saturate(.78) contrast(.98); }
+    .image-credit { position: absolute; z-index: 2; bottom: 16px; left: 20px; color: rgba(255,255,255,.72); text-transform: uppercase; letter-spacing: .13em; font-size: 8px; }
+    .hero-art-card { position: absolute; z-index: 3; right: 0; bottom: 35px; width: 190px; padding: 18px; background: rgba(255,253,250,.92); backdrop-filter: blur(14px); border: 1px solid rgba(255,255,255,.8); box-shadow: 0 16px 45px rgba(7,62,57,.19); }
+    .hero-art-card .number { display: block; color: var(--gold); font-family: 'Cormorant Garamond', Georgia, serif; font-size: 40px; line-height: .8; margin-bottom: 13px; }
+    .hero-art-card p { color: var(--teal-deep); font-size: 12px; line-height: 1.42; }
+    .hero-orbit { position: absolute; top: 34px; right: -16px; width: 120px; height: 120px; border: 1px solid rgba(200,168,120,.7); border-radius: 50%; }
+    .hero-orbit::before, .hero-orbit::after { content: ''; position: absolute; border: 1px solid rgba(200,168,120,.55); border-radius: 50%; }
+    .hero-orbit::before { inset: 14px -10px; transform: rotate(28deg); }
+    .hero-orbit::after { inset: -10px 14px; transform: rotate(-28deg); }
+    .scroll-cue { position: absolute; left: 0; bottom: 27px; display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; }
+    .scroll-cue::before { content: ''; width: 38px; height: 1px; background: var(--gold); }
+    .marquee { background: var(--teal); color: rgba(255,255,255,.82); overflow: hidden; }
+    .marquee-track { display: flex; justify-content: space-around; align-items: center; gap: 38px; padding: 15px 0; white-space: nowrap; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 18px; }
+    .marquee-track span::after { content: '✦'; margin-left: 38px; color: var(--gold); font-family: system-ui, sans-serif; font-size: 10px; vertical-align: 3px; }
+    .section { padding: 122px 0; }
+    .section-head { display: flex; justify-content: space-between; align-items: end; gap: 35px; margin-bottom: 50px; }
+    .section-head-copy { max-width: 680px; }
+    .section-head h2 { color: var(--teal-deep); margin-top: 22px; }
+    .section-head p { max-width: 330px; color: var(--muted); line-height: 1.6; font-size: 14px; }
+    .signature { background: var(--paper); }
+    .signature-grid { display: grid; grid-template-columns: 1.2fr .8fr; grid-template-rows: repeat(2, minmax(280px, 1fr)); gap: 18px; }
+    .treatment { position: relative; overflow: hidden; min-height: 310px; display: flex; flex-direction: column; justify-content: end; isolation: isolate; background: var(--teal-deep); border-radius: 4px; }
+    .treatment:first-child { grid-row: span 2; min-height: 628px; }
+    .treatment::before { content: ''; position: absolute; z-index: -2; inset: 0; background: linear-gradient(145deg, var(--teal) 0%, #123b36 100%); }
+    .treatment img { position: absolute; z-index: -1; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: .72; mix-blend-mode: screen; filter: saturate(.55) contrast(1.04); transition: transform .7s var(--ease), opacity .4s var(--ease); }
+    .treatment:first-child img { mix-blend-mode: normal; opacity: .69; filter: saturate(.72) contrast(.96); }
+    .treatment::after { content: ''; position: absolute; z-index: -1; inset: 0; background: linear-gradient(180deg, rgba(7,62,57,0) 20%, rgba(7,62,57,.9) 100%); }
+    .treatment:hover img { transform: scale(1.045); opacity: .82; }
+    .treatment-content { position: relative; padding: 27px; color: white; }
+    .treatment-badge { display: inline-flex; padding: 6px 9px; margin-bottom: 17px; color: var(--teal-deep); background: var(--gold-pale); text-transform: uppercase; letter-spacing: .14em; font-size: 8px; font-weight: 700; }
+    .treatment h3 { color: white; font-size: clamp(2.1rem, 3vw, 3.5rem); max-width: 580px; }
+    .treatment:not(:first-child) h3 { font-size: 2.3rem; }
+    .treatment p { max-width: 520px; margin-top: 12px; color: rgba(255,255,255,.72); font-size: 13px; line-height: 1.55; }
+    .treatment-arrow { position: absolute; right: 26px; bottom: 29px; width: 39px; height: 39px; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.38); border-radius: 50%; color: var(--gold-pale); font-size: 18px; transition: transform .2s var(--ease), background .2s var(--ease); }
+    .treatment:hover .treatment-arrow { background: rgba(255,255,255,.12); transform: translate(3px, -3px); }
+    .manifesto { background: var(--teal-deep); color: white; overflow: hidden; }
+    .manifesto-grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 90px; align-items: center; }
+    .manifesto h2 { color: white; max-width: 500px; }
+    .manifesto h2 em { color: var(--gold); }
+    .manifesto-copy > p { margin-top: 25px; color: rgba(255,255,255,.7); line-height: 1.7; font-size: 15px; max-width: 390px; }
+    .principles { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0; border-top: 1px solid rgba(255,255,255,.2); }
+    .principle { padding: 27px 18px 27px 0; border-bottom: 1px solid rgba(255,255,255,.2); }
+    .principle:nth-child(odd) { margin-right: 25px; border-right: 1px solid rgba(255,255,255,.2); }
+    .principle:nth-child(even) { padding-left: 25px; }
+    .principle-index { color: var(--gold); font-size: 10px; letter-spacing: .1em; }
+    .principle h3 { font-size: 2rem; margin: 15px 0 9px; }
+    .principle p { color: rgba(255,255,255,.65); font-size: 12px; line-height: 1.6; }
+    .services { background: var(--cream); }
+    .service-tabs { display: flex; gap: 10px; margin-bottom: 28px; }
+    .service-tab { padding: 12px 17px; border: 1px solid var(--line); border-radius: 100px; background: transparent; color: var(--muted); font-size: 11px; font-weight: 700; cursor: pointer; transition: .2s var(--ease); }
+    .service-tab.is-active, .service-tab:hover { color: white; background: var(--teal); border-color: var(--teal); }
+    .service-panel { display: none; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+    .service-panel.is-active { display: grid; }
+    .service-item { min-height: 158px; padding: 23px; background: var(--cream); transition: background .2s var(--ease), transform .2s var(--ease); }
+    .service-item:hover { position: relative; z-index: 1; background: var(--paper); box-shadow: 0 12px 28px rgba(14,92,83,.08); transform: translateY(-2px); }
+    .service-item .service-number { color: var(--gold); font-size: 10px; letter-spacing: .12em; }
+    .service-item h3 { margin-top: 15px; color: var(--teal-deep); font-size: 1.7rem; line-height: 1; }
+    .service-item p { margin-top: 9px; color: var(--muted); font-size: 11px; line-height: 1.5; }
+    .location { background: var(--paper); }
+    .location-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 70px; align-items: stretch; }
+    .location-copy { display: flex; flex-direction: column; justify-content: center; }
+    .location-copy h2 { margin-top: 22px; color: var(--teal-deep); }
+    .location-copy > p { margin-top: 22px; color: var(--muted); line-height: 1.65; font-size: 14px; max-width: 390px; }
+    .contact-list { display: grid; gap: 19px; margin-top: 36px; }
+    .contact-row { display: grid; grid-template-columns: 28px 1fr; gap: 13px; align-items: start; }
+    .contact-icon { color: var(--gold); padding-top: 2px; }
+    .contact-row small { display: block; text-transform: uppercase; letter-spacing: .14em; font-size: 9px; color: var(--muted); margin-bottom: 4px; }
+    .contact-row strong { color: var(--teal-deep); font-size: 14px; line-height: 1.5; font-weight: 600; }
+    .contact-row a { text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 3px; }
+    .map-card { position: relative; min-height: 500px; padding: 11px; background: var(--teal-soft); box-shadow: var(--shadow); }
+    .map-card iframe { width: 100%; height: 100%; min-height: 478px; border: 0; filter: grayscale(.9) sepia(.12) hue-rotate(115deg) saturate(.58); }
+    .map-caption { position: absolute; left: 28px; bottom: 28px; max-width: 250px; padding: 16px 18px; background: rgba(255,253,250,.95); color: var(--teal-deep); box-shadow: 0 12px 30px rgba(7,62,57,.14); }
+    .map-caption span { display: block; color: var(--gold); text-transform: uppercase; letter-spacing: .14em; font-size: 9px; font-weight: 700; margin-bottom: 6px; }
+    .map-caption strong { display: block; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 23px; font-weight: 600; line-height: 1; }
+    .booking { position: relative; overflow: hidden; background: var(--gold-pale); }
+    .booking::after { content: 'D'; position: absolute; right: 8%; top: -25%; color: rgba(255,255,255,.46); font: 700 360px/.8 'Cormorant Garamond', Georgia, serif; pointer-events: none; }
+    .booking-inner { position: relative; z-index: 1; display: flex; justify-content: space-between; align-items: center; gap: 35px; }
+    .booking h2 { color: var(--teal-deep); max-width: 630px; }
+    .booking p { margin-top: 16px; color: #5e6a63; max-width: 470px; font-size: 14px; line-height: 1.6; }
+    .booking-action { flex: 0 0 auto; text-align: center; }
+    .booking-action small { display: block; margin-top: 10px; color: #6b746a; font-size: 10px; }
+    footer { color: rgba(255,255,255,.7); background: var(--teal-deep); padding: 55px 0 28px; }
+    .footer-grid { display: grid; grid-template-columns: 1.2fr .8fr .8fr; gap: 40px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,.16); }
+    .footer-brand .brand-name { color: white; }
+    .footer-brand .brand-sub { color: rgba(255,255,255,.52); }
+    .footer-brand p { max-width: 280px; margin-top: 18px; color: rgba(255,255,255,.58); font-size: 12px; line-height: 1.6; }
+    .footer-col h4 { margin: 0 0 16px; color: var(--gold-pale); font-size: 10px; text-transform: uppercase; letter-spacing: .16em; }
+    .footer-col a, .footer-col span { display: block; margin-bottom: 10px; font-size: 12px; }
+    .footer-col a:hover { color: white; }
+    .footer-bottom { display: flex; justify-content: space-between; gap: 20px; padding-top: 24px; color: rgba(255,255,255,.4); font-size: 10px; }
+    .whatsapp-float { position: fixed; right: 22px; bottom: 22px; z-index: 30; width: 58px; height: 58px; display: grid; place-items: center; border-radius: 50%; background: #1fa463; color: white; box-shadow: 0 10px 30px rgba(22,105,65,.3); }
+    .whatsapp-float::before { content: ''; position: absolute; inset: -7px; border: 1px solid rgba(31,164,99,.45); border-radius: 50%; animation: pulse 2.2s infinite; }
+    .whatsapp-float svg { width: 26px; height: 26px; }
+    .whatsapp-float:hover { transform: translateY(-3px); background: #178b53; }
+    .reveal { opacity: 0; transform: translateY(18px); }
+    @keyframes pulse { 0%, 100% { transform: scale(1); opacity: .75; } 50% { transform: scale(1.13); opacity: 0; } }
+    @media (prefers-reduced-motion: no-preference) { .reveal { animation: reveal .75s var(--ease) forwards; } .reveal:nth-child(2) { animation-delay: .08s; } .reveal:nth-child(3) { animation-delay: .16s; } @keyframes reveal { to { opacity: 1; transform: translateY(0); } } }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .001ms !important; transition-duration: .001ms !important; } .reveal { opacity: 1; transform: none; } }
+    @media (max-width: 900px) {
+      .shell { width: min(100% - 36px, 680px); }
+      .nav-links, .nav-cta { display: none; }
+      .menu-toggle { display: block; }
+      .nav-panel { position: fixed; inset: 119px 0 auto; display: none; padding: 18px 18px 28px; background: rgba(255,253,250,.98); border-bottom: 1px solid var(--line); box-shadow: 0 20px 30px rgba(7,62,57,.09); }
+      .nav-panel.is-open { display: block; }
+      .nav-panel a { display: block; padding: 15px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+      .nav-panel .mobile-cta { display: flex; margin-top: 18px; }
+      .hero-grid, .manifesto-grid, .location-grid { grid-template-columns: 1fr; }
+      .hero-grid { padding-top: 60px; min-height: auto; }
+      .hero-art { height: 480px; margin-top: 20px; }
+      .manifesto-grid { gap: 55px; }
+      .location-grid { gap: 45px; }
+      .booking-inner { align-items: flex-start; flex-direction: column; }
+      .footer-grid { grid-template-columns: 1.2fr 1fr 1fr; }
+    }
+    @media (min-width: 901px) { .nav-panel { display: none !important; } }
+    @media (max-width: 620px) {
+      .shell { width: min(100% - 30px, 520px); }
+      .topline .shell { min-height: 34px; }
+      .topline .topline-location { display: none; }
+      .topline-right { width: 100%; justify-content: space-between; }
+      .nav-inner { min-height: 76px; }
+      h1 { font-size: clamp(3.45rem, 16vw, 5.2rem); }
+      h2 { font-size: clamp(2.9rem, 14vw, 4.3rem); }
+      .hero-grid { padding: 54px 0 70px; }
+      .hero-lede { font-size: 15px; }
+      .hero-art { height: 390px; }
+      .hero-art-main { inset-right: 28px; border-radius: 120px 120px 10px 10px; }
+      .hero-art-card { width: 155px; right: 0; padding: 14px; bottom: 22px; }
+      .hero-art-card .number { font-size: 33px; }
+      .hero-orbit { width: 75px; height: 75px; right: -10px; top: 18px; }
+      .scroll-cue { bottom: 16px; }
+      .section { padding: 80px 0; }
+      .section-head { display: block; margin-bottom: 32px; }
+      .section-head p { margin-top: 21px; }
+      .signature-grid { display: block; }
+      .treatment, .treatment:first-child { min-height: 340px; margin-bottom: 14px; }
+      .treatment:first-child { min-height: 450px; }
+      .treatment-content { padding: 22px; }
+      .treatment:not(:first-child) h3 { font-size: 2rem; }
+      .principles { display: block; }
+      .principle, .principle:nth-child(odd), .principle:nth-child(even) { margin: 0; padding: 24px 0; border-right: 0; }
+      .service-tabs { flex-wrap: wrap; }
+      .service-panel.is-active { grid-template-columns: 1fr; }
+      .service-item { min-height: 125px; }
+      .map-card { min-height: 390px; }
+      .map-card iframe { min-height: 368px; }
+      .map-caption { left: 23px; bottom: 23px; }
+      .booking::after { right: -19%; top: 15%; font-size: 250px; }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 35px 18px; }
+      .footer-brand { grid-column: 1 / -1; }
+      .footer-bottom { display: block; }
+      .footer-bottom span { display: block; margin-top: 7px; }
+      .whatsapp-float { right: 15px; bottom: 15px; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Dermapiel — Centro Estético Láser y Ozonoterapia",
+    "description": "Centro de estética, láser, ozonoterapia y belleza en Ambato, Ecuador.",
+    "url": "https://novestudios-hq.github.io/dermapiel-clinic/",
+    "telephone": "+593995727311",
+    "email": "dermapiel.diana@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle Bolívar y Lalama, Centro Comercial Palacios, 3er piso, local 36-37",
+      "addressLocality": "Ambato",
+      "addressCountry": "EC"
+    },
+    "areaServed": "Ambato, Ecuador",
+    "sameAs": ["https://wa.me/593995727311"]
+  }
+  </script>
+</head>
+<body>
+  <div class="topline">
+    <div class="shell">
+      <span class="topline-location">Ambato · Ecuador</span>
+      <div class="topline-right">
+        <span><strong data-es="Martes: cerrado" data-en="Closed Tuesdays">Martes: cerrado</strong></span>
+        <div class="lang-switch" role="group" aria-label="Language selector">
+          <button type="button" class="is-active" data-lang="es" aria-pressed="true">ES</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="navbar">
+    <div class="shell nav-inner">
+      <a class="brand" href="#inicio" aria-label="Dermapiel, inicio">
+        <span class="brand-mark" aria-hidden="true">D</span>
+        <span><span class="brand-name">Dermapiel</span><span class="brand-sub" data-es="Láser · Ozono · Belleza" data-en="Laser · Ozone · Beauty">Láser · Ozono · Belleza</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Navegación principal">
+        <a href="#tratamientos" data-es="Tratamientos" data-en="Treatments">Tratamientos</a>
+        <a href="#servicios" data-es="Servicios" data-en="Services">Servicios</a>
+        <a href="#ubicacion" data-es="Ubicación" data-en="Location">Ubicación</a>
+      </nav>
+      <a class="nav-cta" href="https://wa.me/593995727311?text=Hola%2C%20vi%20su%20p%C3%A1gina%20y%20quisiera%20agendar%20mi%20consulta%20gratuita" target="_blank" rel="noopener" data-es="Agenda tu consulta" data-en="Book your consultation">Agenda tu consulta</a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+      </button>
+    </div>
+    <div class="nav-panel" aria-label="Menú móvil">
+      <a href="#tratamientos" data-es="Tratamientos" data-en="Treatments">Tratamientos</a>
+      <a href="#servicios" data-es="Servicios" data-en="Services">Servicios</a>
+      <a href="#ubicacion" data-es="Ubicación" data-en="Location">Ubicación</a>
+      <a class="button button-primary mobile-cta" href="https://wa.me/593995727311?text=Hola%2C%20vi%20su%20p%C3%A1gina%20y%20quisiera%20agendar%20mi%20consulta%20gratuita" target="_blank" rel="noopener" data-es="Agenda tu consulta gratuita" data-en="Book your free consultation">Agenda tu consulta gratuita</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="shell hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow" data-es="Cuidado estético con intención" data-en="Intentional aesthetic care">Cuidado estético con intención</span>
+          <h1 class="hero-title"><span data-es="Tu piel, tu" data-en="Your skin, your">Tu piel, tu</span><br /><em data-es="ritual." data-en="ritual.">ritual.</em></h1>
+          <p class="hero-lede" data-es="Terapias de ozono, láser y belleza avanzada para acompañar tu bienestar con una mirada personalizada." data-en="Ozone therapy, laser and advanced beauty treatments to support your wellbeing with a personalized approach.">Terapias de ozono, láser y belleza avanzada para acompañar tu bienestar con una mirada personalizada.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://wa.me/593995727311?text=Hola%2C%20vi%20su%20p%C3%A1gina%20y%20quisiera%20agendar%20mi%20consulta%20gratuita" target="_blank" rel="noopener"><span data-es="Agenda tu consulta gratuita" data-en="Book your free consultation">Agenda tu consulta gratuita</span><span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#tratamientos" data-es="Explorar tratamientos" data-en="Explore treatments">Explorar tratamientos</a>
+          </div>
+          <div class="hero-note"><span class="dot"></span><span data-es="Consulta gratuita · Cotización personalizada" data-en="Free consultation · Personalized quote">Consulta gratuita · Cotización personalizada</span></div>
+        </div>
+        <div class="hero-art reveal">
+          <div class="hero-art-main">
+            <img src="https://files.manuscdn.com/search-media/310519663977264131/b2veMCpQjNwALavijAco2a/fNnoHim24uXp8ZZyAafTcF.jpg" alt="Tratamiento láser estético de referencia" />
+            <span class="image-credit" data-es="Imagen de referencia · Unsplash" data-en="Reference image · Unsplash">Imagen de referencia · Unsplash</span>
+          </div>
+          <div class="hero-art-card"><span class="number">01</span><p data-es="Tecnología, calma y acompañamiento en cada visita." data-en="Technology, calm and support in every visit.">Tecnología, calma y acompañamiento en cada visita.</p></div>
+          <div class="hero-orbit" aria-hidden="true"></div>
+        </div>
+        <div class="scroll-cue" data-es="Descubre Dermapiel" data-en="Discover Dermapiel">Descubre Dermapiel</div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>Laser</span><span>Ozonoterapia</span><span>Facial Spa</span><span>Beauty Salon</span></div></div>
+
+    <section class="section signature" id="tratamientos">
+      <div class="shell">
+        <div class="section-head">
+          <div class="section-head-copy"><span class="eyebrow" data-es="Lo más buscado" data-en="Most requested">Lo más buscado</span><h2 data-es="Tratamientos que<br />se sienten." data-en="Treatments you<br />can feel.">Tratamientos que<br />se sienten.</h2></div>
+          <p data-es="Una selección de procedimientos destacados para comenzar una conversación sobre lo que tu piel necesita hoy." data-en="A selection of highlighted procedures to start a conversation about what your skin needs today.">Una selección de procedimientos destacados para comenzar una conversación sobre lo que tu piel necesita hoy.</p>
+        </div>
+        <div class="signature-grid">
+          <article class="treatment reveal">
+            <img src="https://files.manuscdn.com/search-media/310519663977264131/b2veMCpQjNwALavijAco2a/cJ2DTrYdx6Yt9sfHUy96M9.jpg" alt="Tratamiento facial láser de referencia" loading="lazy" />
+            <div class="treatment-content"><span class="treatment-badge" data-es="Nuevo" data-en="New">Nuevo</span><h3 data-es="Láser CO2<br />fraccionado" data-en="Fractional<br />CO2 laser">Láser CO2<br />fraccionado</h3><p data-es="Acné, arrugas, manchas, envejecimiento, lunares y estrías. Resultados visibles desde la primera sesión." data-en="Acne, wrinkles, pigmentation, aging, moles and stretch marks. Visible results from the first session.">Acné, arrugas, manchas, envejecimiento, lunares y estrías. Resultados visibles desde la primera sesión.</p><a href="https://wa.me/593995727311?text=Hola%2C%20me%20interesa%20el%20L%C3%A1ser%20CO2%20fraccionado" class="treatment-arrow" target="_blank" rel="noopener" aria-label="Consultar por Láser CO2">↗</a></div>
+          </article>
+          <article class="treatment reveal">
+            <img src="https://files.manuscdn.com/search-media/310519663977264131/b2veMCpQjNwALavijAco2a/SzsoeowKzin5.jpg" alt="Ritual facial de referencia" loading="lazy" />
+            <div class="treatment-content"><span class="treatment-badge" data-es="Consulta gratuita" data-en="Free consultation">Consulta gratuita</span><h3 data-es="Campaña<br />de Botox" data-en="Botox<br />campaign">Campaña<br />de Botox</h3><p data-es="Áreas localizadas. Conversa con nuestro equipo sobre tu objetivo." data-en="Localized areas. Talk with our team about your goal.">Áreas localizadas. Conversa con nuestro equipo sobre tu objetivo.</p><a href="https://wa.me/593995727311?text=Hola%2C%20me%20interesa%20la%20campa%C3%B1a%20de%20Botox" class="treatment-arrow" target="_blank" rel="noopener" aria-label="Consultar por Botox">↗</a></div>
+          </article>
+          <article class="treatment reveal">
+            <img src="https://files.manuscdn.com/search-media/310519663977264131/b2veMCpQjNwALavijAco2a/66tw2QdZoV7CncyQMrFAmH.jpg" alt="Tratamiento de piel de referencia" loading="lazy" />
+            <div class="treatment-content"><span class="treatment-badge" data-es="Nuevo equipo" data-en="New equipment">Nuevo equipo</span><h3 data-es="Eliminación láser<br />de microblading" data-en="Laser removal<br />of microblading">Eliminación láser<br />de microblading</h3><p data-es="También disponible para tatuaje de cejas." data-en="Also available for eyebrow tattoo removal.">También disponible para tatuaje de cejas.</p><a href="https://wa.me/593995727311?text=Hola%2C%20me%20interesa%20la%20eliminaci%C3%B3n%20l%C3%A1ser%20de%20microblading" class="treatment-arrow" target="_blank" rel="noopener" aria-label="Consultar por eliminación láser">↗</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section manifesto">
+      <div class="shell manifesto-grid">
+        <div class="manifesto-copy"><span class="eyebrow" data-es="La diferencia Dermapiel" data-en="The Dermapiel difference">La diferencia Dermapiel</span><h2 data-es="La belleza también puede ser una pausa." data-en="Beauty can also be a pause.">La belleza también puede ser una pausa.</h2><p data-es="Creamos un espacio para que el cuidado se sienta claro, cercano y sin prisa. Tu consulta empieza escuchando." data-en="We create a space where care feels clear, close and unrushed. Your consultation starts with listening.">Creamos un espacio para que el cuidado se sienta claro, cercano y sin prisa. Tu consulta empieza escuchando.</p></div>
+        <div class="principles">
+          <div class="principle"><span class="principle-index">01</span><h3 data-es="Personal" data-en="Personal">Personal</h3><p data-es="Cada conversación comienza con tus objetivos y el estado actual de tu piel." data-en="Every conversation starts with your goals and your skin's current condition.">Cada conversación comienza con tus objetivos y el estado actual de tu piel.</p></div>
+          <div class="principle"><span class="principle-index">02</span><h3 data-es="Preciso" data-en="Precise">Preciso</h3><p data-es="Tecnología estética y tratamientos elegidos para acompañar tu proceso." data-en="Aesthetic technology and treatments chosen to support your process.">Tecnología estética y tratamientos elegidos para acompañar tu proceso.</p></div>
+          <div class="principle"><span class="principle-index">03</span><h3 data-es="Claro" data-en="Clear">Claro</h3><p data-es="Consulta gratuita, explicación honesta y cotización personalizada." data-en="Free consultation, honest explanation and personalized quote.">Consulta gratuita, explicación honesta y cotización personalizada.</p></div>
+          <div class="principle"><span class="principle-index">04</span><h3 data-es="Cercano" data-en="Close">Cercano</h3><p data-es="Un equipo listo para resolver tus dudas antes, durante y después." data-en="A team ready to answer your questions before, during and after.">Un equipo listo para resolver tus dudas antes, durante y después.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="servicios">
+      <div class="shell">
+        <div class="section-head"><div class="section-head-copy"><span class="eyebrow" data-es="Todo en un solo lugar" data-en="Everything in one place">Todo en un solo lugar</span><h2 data-es="Tu menú<br />de cuidado." data-en="Your care<br />menu.">Tu menú<br />de cuidado.</h2></div><p data-es="Explora nuestras categorías y encuentra el punto de partida para tu próxima visita." data-en="Explore our categories and find the starting point for your next visit.">Explora nuestras categorías y encuentra el punto de partida para tu próxima visita.</p></div>
+        <div class="service-tabs" role="tablist" aria-label="Categorías de servicios"><button type="button" class="service-tab is-active" role="tab" aria-selected="true" data-tab="facial" data-es="Facial Spa" data-en="Facial Spa">Facial Spa</button><button type="button" class="service-tab" role="tab" aria-selected="false" data-tab="beauty" data-es="Beauty Salon" data-en="Beauty Salon">Beauty Salon</button></div>
+        <div class="service-panel is-active" id="facial" role="tabpanel">
+          <div class="service-item"><span class="service-number">01</span><h3 data-es="Velos de colágeno" data-en="Collagen veils">Velos de colágeno</h3><p data-es="Ritual hidratante y reconfortante." data-en="A hydrating, comforting ritual.">Ritual hidratante y reconfortante.</p></div>
+          <div class="service-item"><span class="service-number">02</span><h3 data-es="Tratamiento para cicatrices" data-en="Scar treatment">Tratamiento para cicatrices</h3><p data-es="Valoración personalizada." data-en="Personalized assessment.">Valoración personalizada.</p></div>
+          <div class="service-item"><span class="service-number">03</span><h3 data-es="Plasma fibroblast" data-en="Fibroblast plasma">Plasma fibroblast</h3><p data-es="Tecnología para el cuidado de la piel." data-en="Technology for skin care.">Tecnología para el cuidado de la piel.</p></div>
+          <div class="service-item"><span class="service-number">04</span><h3 data-es="Depilación láser SHR" data-en="SHR laser hair removal">Depilación láser SHR</h3><p data-es="Consulta zonas y proceso." data-en="Ask about areas and process.">Consulta zonas y proceso.</p></div>
+          <div class="service-item"><span class="service-number">05</span><h3 data-es="PRP antiedad" data-en="Anti-aging PRP">PRP antiedad</h3><p data-es="Acompañamiento estético personalizado." data-en="Personalized aesthetic support.">Acompañamiento estético personalizado.</p></div>
+          <div class="service-item"><span class="service-number">06</span><h3 data-es="Microdermoabrasión con punta de diamante" data-en="Diamond-tip microdermabrasion">Microdermoabrasión con punta de diamante</h3><p data-es="Limpieza y renovación suave." data-en="Gentle cleansing and renewal.">Limpieza y renovación suave.</p></div>
+        </div>
+        <div class="service-panel" id="beauty" role="tabpanel" hidden>
+          <div class="service-item"><span class="service-number">01</span><h3 data-es="Auriculoterapia" data-en="Auriculotherapy">Auriculoterapia</h3><p data-es="Consulta personalizada." data-en="Personalized consultation.">Consulta personalizada.</p></div>
+          <div class="service-item"><span class="service-number">02</span><h3 data-es="Botox" data-en="Botox">Botox</h3><p data-es="Áreas localizadas · Consulta gratuita." data-en="Localized areas · Free consultation.">Áreas localizadas · Consulta gratuita.</p></div>
+          <div class="service-item"><span class="service-number">03</span><h3 data-es="Drenaje linfático" data-en="Lymphatic drainage">Drenaje linfático</h3><p data-es="Pre y post-operatorio." data-en="Pre- and post-operative.">Pre y post-operatorio.</p></div>
+          <div class="service-item"><span class="service-number">04</span><h3 data-es="Maquillaje cubritivo antiedad" data-en="Anti-aging cover makeup">Maquillaje cubritivo antiedad</h3><p data-es="Acabado pensado para tu piel." data-en="A finish designed for your skin.">Acabado pensado para tu piel.</p></div>
+          <div class="service-item"><span class="service-number">05</span><h3 data-es="Eliminación láser de tatuajes" data-en="Laser tattoo removal">Eliminación láser de tatuajes</h3><p data-es="Consulta por zonas y valoración." data-en="Ask about areas and assessment.">Consulta por zonas y valoración.</p></div>
+          <div class="service-item"><span class="service-number">06</span><h3 data-es="Extensiones de pestañas" data-en="Eyelash extensions">Extensiones de pestañas</h3><p data-es="Mirada definida y personalizada." data-en="A defined, personalized look.">Mirada definida y personalizada.</p></div>
+          <div class="service-item"><span class="service-number">07</span><h3 data-es="Microblading de cejas" data-en="Eyebrow microblading">Microblading de cejas</h3><p data-es="Diseño de cejas a tu medida." data-en="Brow design made for you.">Diseño de cejas a tu medida.</p></div>
+          <div class="service-item"><span class="service-number">08</span><h3 data-es="Peelings faciales" data-en="Facial peels">Peelings faciales</h3><p data-es="Renovación y cuidado dirigido." data-en="Targeted renewal and care.">Renovación y cuidado dirigido.</p></div>
+          <div class="service-item"><span class="service-number">09</span><h3 data-es="Reducción de medida" data-en="Body contouring">Reducción de medida</h3><p data-es="Mesoterapia · Cotización personalizada." data-en="Mesotherapy · Personalized quote.">Mesoterapia · Cotización personalizada.</p></div>
+          <div class="service-item"><span class="service-number">10</span><h3 data-es="Rizado de pestañas" data-en="Lash lift">Rizado de pestañas</h3><p data-es="Curvatura natural y definida." data-en="Natural, defined curl.">Curvatura natural y definida.</p></div>
+          <div class="service-item"><span class="service-number">11</span><h3 data-es="Fórmulas magistrales cosméticas" data-en="Custom cosmetic formulas">Fórmulas magistrales cosméticas</h3><p data-es="Cuidado formulado para ti." data-en="Care formulated for you.">Cuidado formulado para ti.</p></div>
+          <div class="service-item"><span class="service-number">12</span><h3 data-es="Hollywood peeling" data-en="Hollywood peel">Hollywood peeling</h3><p data-es="Ritual de luminosidad." data-en="A glow-focused ritual.">Ritual de luminosidad.</p></div>
+          <div class="service-item"><span class="service-number">13</span><h3 data-es="Limpieza facial con microdermoabrasión" data-en="Facial cleansing with microdermabrasion">Limpieza facial con microdermoabrasión</h3><p data-es="Limpieza profunda y suave." data-en="Deep, gentle cleansing.">Limpieza profunda y suave.</p></div>
+          <div class="service-item"><span class="service-number">14</span><h3 data-es="Mascarilla de oro" data-en="Gold mask">Mascarilla de oro</h3><p data-es="Un toque luminoso para cerrar tu ritual." data-en="A luminous finish to your ritual.">Un toque luminoso para cerrar tu ritual.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section location" id="ubicacion">
+      <div class="shell location-grid">
+        <div class="location-copy"><span class="eyebrow" data-es="Visítanos en Ambato" data-en="Visit us in Ambato">Visítanos en Ambato</span><h2 data-es="Estamos más cerca de lo que imaginas." data-en="Closer than you imagine.">Estamos más cerca de lo que imaginas.</h2><p data-es="Encuéntranos en el Centro Comercial Palacios, frente a Comercial Tía. Si es tu primera visita, escríbenos y te orientamos." data-en="Find us at Centro Comercial Palacios, across from Comercial Tía. If it is your first visit, write to us and we will guide you.">Encuéntranos en el Centro Comercial Palacios, frente a Comercial Tía. Si es tu primera visita, escríbenos y te orientamos.</p>
+          <div class="contact-list">
+            <div class="contact-row"><span class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s7-6.1 7-12A7 7 0 0 0 5 9c0 5.9 7 12 7 12Z"/><circle cx="12" cy="9" r="2.3"/></svg></span><div><small data-es="Dirección" data-en="Address">Dirección</small><strong>Calle Bolívar y Lalama<br />Centro Comercial Palacios, 3er piso, local 36-37<br />Ambato, Ecuador</strong></div></div>
+            <div class="contact-row"><span class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.4 1.8.6 2.8.7a2 2 0 0 1 1.9 2.1Z"/></svg></span><div><small data-es="WhatsApp" data-en="WhatsApp">WhatsApp</small><strong><a href="https://wa.me/593995727311" target="_blank" rel="noopener">+593 99 572 7311</a></strong></div></div>
+            <div class="contact-row"><span class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><div><small data-es="Correo" data-en="Email">Correo</small><strong><a href="mailto:dermapiel.diana@gmail.com">dermapiel.diana@gmail.com</a></strong></div></div>
+          </div>
+        </div>
+        <div class="map-card"><iframe title="Mapa de ubicación de Dermapiel en Ambato" loading="lazy" src="https://www.google.com/maps?q=Calle+Bol%C3%ADvar+y+Lalama%2C+Centro+Comercial+Palacios%2C+Ambato%2C+Ecuador&output=embed"></iframe><div class="map-caption"><span data-es="Referencia" data-en="Reference">Referencia</span><strong>Frente a Comercial Tía</strong></div></div>
+      </div>
+    </section>
+
+    <section class="section booking" id="contacto">
+      <div class="shell booking-inner"><div><span class="eyebrow" data-es="Tu próximo paso" data-en="Your next step">Tu próximo paso</span><h2 data-es="Hablemos de lo que tu piel necesita." data-en="Let's talk about what your skin needs.">Hablemos de lo que tu piel necesita.</h2><p data-es="Agenda una consulta gratuita por WhatsApp. Te ayudamos a encontrar el tratamiento y el momento adecuados para ti." data-en="Book a free consultation by WhatsApp. We will help you find the right treatment and timing for you.">Agenda una consulta gratuita por WhatsApp. Te ayudamos a encontrar el tratamiento y el momento adecuados para ti.</p></div><div class="booking-action"><a class="button button-primary" href="https://wa.me/593995727311?text=Hola%2C%20vi%20su%20p%C3%A1gina%20y%20quisiera%20agendar%20mi%20consulta%20gratuita" target="_blank" rel="noopener"><span data-es="Escribir por WhatsApp" data-en="Message us on WhatsApp">Escribir por WhatsApp</span><span aria-hidden="true">↗</span></a><small data-es="Consulta gratuita · Sin precios publicados" data-en="Free consultation · No prices published">Consulta gratuita · Sin precios publicados</small></div></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell">
+      <div class="footer-grid">
+        <div class="footer-brand"><a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">D</span><span><span class="brand-name">Dermapiel</span><span class="brand-sub" data-es="Láser · Ozono · Belleza" data-en="Laser · Ozone · Beauty">Láser · Ozono · Belleza</span></span></a><p data-es="Centro estético láser y ozonoterapia en Ambato, Ecuador. Un espacio para volver a ti." data-en="Laser aesthetic and ozone therapy center in Ambato, Ecuador. A space to return to yourself.">Centro estético láser y ozonoterapia en Ambato, Ecuador. Un espacio para volver a ti.</p></div>
+        <div class="footer-col"><h4 data-es="Explora" data-en="Explore">Explora</h4><a href="#tratamientos" data-es="Tratamientos" data-en="Treatments">Tratamientos</a><a href="#servicios" data-es="Servicios" data-en="Services">Servicios</a><a href="#ubicacion" data-es="Ubicación" data-en="Location">Ubicación</a></div>
+        <div class="footer-col"><h4 data-es="Contacto" data-en="Contact">Contacto</h4><a href="https://wa.me/593995727311" target="_blank" rel="noopener">+593 99 572 7311</a><a href="mailto:dermapiel.diana@gmail.com">dermapiel.diana@gmail.com</a><span data-es="Martes: cerrado" data-en="Closed Tuesdays">Martes: cerrado</span></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 Dermapiel. <span data-es="Todos los derechos reservados." data-en="All rights reserved.">Todos los derechos reservados.</span></span><span data-es="Imágenes de referencia · No representan las instalaciones de Dermapiel" data-en="Reference images · They do not represent Dermapiel facilities">Imágenes de referencia · No representan las instalaciones de Dermapiel</span></div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/593995727311?text=Hola%2C%20vi%20su%20p%C3%A1gina%20y%20quisiera%20agendar%20mi%20consulta%20gratuita" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M20.5 11.4a8.4 8.4 0 0 1-12.3 7.4L3 20l1.3-5a8.4 8.4 0 1 1 16.2-3.6Z"/><path d="M8.4 8.2c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c.6 1.2 1.6 2.1 2.8 2.7l.5-.5c.2-.2.4-.2.6-.1l1.6.7c.3.1.4.3.4.5v.5c0 .3-.1.5-.4.7-.3.2-1.1.4-1.7.2a7.2 7.2 0 0 1-3.2-1.8 7.5 7.5 0 0 1-2.1-2.6c-.4-.9-.5-1.8-.3-2.4Z"/></svg>
+  </a>
+
+  <script>
+    (() => {
+      const setLanguage = (lang) => {
+        document.documentElement.lang = lang;
+        document.querySelectorAll('[data-es][data-en]').forEach((el) => {
+          const value = el.getAttribute(`data-${lang}`);
+          if (value !== null) el.innerHTML = value;
+        });
+        document.querySelectorAll('.lang-switch button').forEach((button) => {
+          const active = button.dataset.lang === lang;
+          button.classList.toggle('is-active', active);
+          button.setAttribute('aria-pressed', String(active));
+        });
+        document.title = lang === 'es' ? 'Dermapiel — Centro Estético Láser y Ozonoterapia | Ambato' : 'Dermapiel — Laser Aesthetic & Ozone Therapy | Ambato';
+      };
+      document.querySelectorAll('.lang-switch button').forEach((button) => button.addEventListener('click', () => setLanguage(button.dataset.lang)));
+
+      const menuToggle = document.querySelector('.menu-toggle');
+      const navPanel = document.querySelector('.nav-panel');
+      menuToggle.addEventListener('click', () => {
+        const open = navPanel.classList.toggle('is-open');
+        menuToggle.setAttribute('aria-expanded', String(open));
+        menuToggle.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+      });
+      navPanel.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
+        navPanel.classList.remove('is-open');
+        menuToggle.setAttribute('aria-expanded', 'false');
+      }));
+
+      const tabs = document.querySelectorAll('.service-tab');
+      const panels = document.querySelectorAll('.service-panel');
+      tabs.forEach((tab) => tab.addEventListener('click', () => {
+        const target = tab.dataset.tab;
+        tabs.forEach((item) => { const active = item === tab; item.classList.toggle('is-active', active); item.setAttribute('aria-selected', String(active)); });
+        panels.forEach((panel) => { const active = panel.id === target; panel.classList.toggle('is-active', active); panel.hidden = !active; });
+      }));
+
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) { entry.target.classList.add('is-visible'); observer.unobserve(entry.target); } }), { threshold: .12 });
+        document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+      } else { document.querySelectorAll('.reveal').forEach((el) => el.classList.add('is-visible')); }
+    })();
+  </script>
+</body>
+</html>
